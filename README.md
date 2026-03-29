@@ -47,7 +47,7 @@
 
 | Исходное изображение 1 | Исходное изображение 2 | Исходное изображение 3 |
 |---|---|---|
-| ![Input 1](./raw_images/image_01.png) | ![Input 2](../lab3/raw_images/image_02.png) | ![Input 3](../lab3/raw_images/image_03.png) |
+| ![Input 1](./raw_images/image_01.png) | ![Input 2](./raw_images/image_02.png) | ![Input 3](./raw_images/image_03.png) |
 
 ---
 
@@ -61,7 +61,7 @@ Y = 0.299R + 0.587G + 0.114B
 
 | Полутоновое изображение 1 | Полутоновое изображение 2 | Полутоновое изображение 3 |
 |---|---|---|
-| ![Input 1](../lab3/gray_bmp/image_01_gray.bmp) | ![Input 2](../lab3/gray_bmp/image_02_gray.bmp) | ![Input 3](../lab3/gray_bmp/image_03_gray.bmp) |
+| ![Input 1](./gray_bmp/image_01_gray.bmp) | ![Input 2](./gray_bmp/image_02_gray.bmp) | ![Input 3](./gray_bmp/image_03_gray.bmp) |
 
 ---
 # Перевод полутонового изображения в монохромное
@@ -73,7 +73,7 @@ Y = 0.299R + 0.587G + 0.114B
 
 | Монохромное изображение 1 | Монохромное изображение 2 | Монохромное изображение 3 |
 |---|---|---|
-| ![Input 1](../lab3/mono_bmp/image_01_mono.bmp) | ![Input 2](../lab3/mono_bmp/image_02_mono.bmp) | ![Input 3](../lab3/mono_bmp/image_03_mono.bmp) |
+| ![Input 1](./mono_bmp/image_01_mono.bmp) | ![Input 2](./mono_bmp/image_02_mono.bmp) | ![Input 3](./mono_bmp/image_03_mono.bmp) |
 
 ---
 
@@ -84,7 +84,7 @@ Y = 0.299R + 0.587G + 0.114B
 
 | Отфильтрованное полутоновое 1 | Отфильтрованное полутоновое 2 | Отфильтрованное полутоновое 3 |
 |---|---|---|
-| ![Input 1](../lab3/filtered_gray_rank/image_01_filtered_gray_rank3of5.bmp) | ![Input 2](../lab3/filtered_gray_rank/image_02_filtered_gray_rank3of5.bmp) | ![Input 3](../lab3/filtered_gray_rank/image_03_filtered_gray_rank3of5.bmp) |
+| ![Input 1](./filtered_gray_rank/image_01_filtered_gray_rank3of5.bmp) | ![Input 2](./filtered_gray_rank/image_02_filtered_gray_rank3of5.bmp) | ![Input 3](./filtered_gray_rank/image_03_filtered_gray_rank3of5.bmp) |
 
 Для каждого изображения полутоновое изображение сначала переводится в монохромное, после чего к нему применяется ранговый фильтр с той же маской **косой крест 3×3** и рангом **3/5**.  
 В этом случае выходной пиксель становится белым, если среди 5 элементов маски не меньше **3 белых пикселей**, иначе — чёрным.
@@ -92,7 +92,7 @@ Y = 0.299R + 0.587G + 0.114B
 
 | Отфильтрованное монохромное 1 | Отфильтрованное монохромное 2 | Отфильтрованное монохромное 3 |
 |---|---|---|
-| ![Input 1](../lab3/filtered_mono_rank/image_01_filtered_mono_rank3of5.bmp) | ![Input 2](../lab3/filtered_mono_rank/image_02_filtered_mono_rank3of5.bmp) | ![Input 3](../lab3/filtered_mono_rank/image_03_filtered_mono_rank3of5.bmp) |
+| ![Input 1](./filtered_mono_rank/image_01_filtered_mono_rank3of5.bmp) | ![Input 2](./filtered_mono_rank/image_02_filtered_mono_rank3of5.bmp) | ![Input 3](./filtered_mono_rank/image_03_filtered_mono_rank3of5.bmp) |
 
 ---
 
@@ -112,13 +112,13 @@ Y = 0.299R + 0.587G + 0.114B
 
 | Разность полутонового 1 | Разность полутонового 2 | Разность полутонового 3 |
 |---|---|---|
-| ![Input 1](../lab3/difference_images_x10/image_01_difference_x10.bmp) | ![Input 2](../lab3/difference_images_x10/image_02_difference_x10.bmp) | ![Input 3](../lab3/difference_images_x10/image_03_difference_x10.bmp) |
+| ![Input 1](./difference_images_x10/image_01_difference_x10.bmp) | ![Input 2](./difference_images_x10/image_02_difference_x10.bmp) | ![Input 3](./difference_images_x10/image_03_difference_x10.bmp) |
 
 Для монохромных изображений разностное изображение вычисляется с помощью операции XOR между исходным и отфильтрованным монохромным изображением.
 
 | XOR монохромного 1 | XOR монохромного 2 | XOR монохромного 3 |
 |---|---|---|
-| ![Input 1](../lab3/xor_mono/image_01_xor_mono.bmp) | ![Input 2](../lab3/xor_mono/image_02_xor_mono.bmp) | ![Input 3](../lab3/xor_mono/image_03_xor_mono.bmp) |
+| ![Input 1](./xor_mono/image_01_xor_mono.bmp) | ![Input 2](./xor_mono/image_02_xor_mono.bmp) | ![Input 3](./xor_mono/image_03_xor_mono.bmp) |
 
 ---
 
