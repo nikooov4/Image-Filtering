@@ -47,7 +47,7 @@
 
 | Исходное изображение 1 | Исходное изображение 2 | Исходное изображение 3 |
 |---|---|---|
-| ![Input 1](../lab3/raw_images/image_01.png) | ![Input 2](../lab3/raw_images/image_02.png) | ![Input 3](../lab3/raw_images/image_03.png) |
+| ![Input 1](./raw_images/image_01.png) | ![Input 2](../lab3/raw_images/image_02.png) | ![Input 3](../lab3/raw_images/image_03.png) |
 
 ---
 
